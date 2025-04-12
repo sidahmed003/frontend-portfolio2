@@ -1,0 +1,153 @@
+.hotel-page * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hotel-page {
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Barre de navigation */
+.hotel-page .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b30000;
+    color: #fff;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-radius: 0 0 20px 20px;
+}
+
+.hotel-page .navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.hotel-page .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.hotel-page .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.hotel-page .nav-links a:hover {
+    color: #ffd6d6;
+}
+
+/* Conteneur principal */
+.hotel-page .container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Articles */
+.hotel-page .post {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(179, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.hotel-page .post:hover {
+    transform: translateY(-5px);
+}
+
+.hotel-page .post img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.hotel-page .post h2 {
+    color: #b30000;
+    padding: 1rem 1rem 0 1rem;
+    font-size: 2rem;
+}
+
+.hotel-page .post p {
+    padding: 0.5rem 1rem 1rem 1rem;
+    color: #444;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.hotel-page .read-more {
+    display: inline-block;
+    margin: 0 1rem 1rem 1rem;
+    color: #b30000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    font-size: 1rem;
+}
+
+.hotel-page .read-more:hover {
+    color: #ff6666;
+}
+
+/* Pied de page */
+.hotel-page .footer {
+    background-color: #b30000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 20px 20px 0 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hotel-page .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hotel-page .nav-links {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .hotel-page .nav-links li {
+        width: 100%;
+    }
+
+    .hotel-page .nav-links a {
+        display: block;
+        padding: 0.5rem 0;
+    }
+
+    .hotel-page .post h2 {
+        font-size: 1.5rem;
+    }
+
+    .hotel-page .post p {
+        font-size: 1rem;
+    }
+
+    .hotel-page .container {
+        padding: 0 0.5rem;
+    }
+}
