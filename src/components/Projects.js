@@ -9,16 +9,10 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
   const projects = [
     {
-      title: "Hotel Reservation",
+      title: "Booking Clone",
       description: "MERN Stack application",
       imgUrl: projImg3,
       link: "/hotel",
-    },
-    {
-      title: "School Management",
-      description: "Laravel & React",
-      imgUrl: projImg2,
-      link: "/school",
     },
   ];
 
@@ -31,7 +25,7 @@ export const Projects = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <h2>Projects</h2>
-                  <p>Consultez chacun de nos projets pour plus de détails.</p>
+                  <p>Consultez chacun de nos projets pour en savoir plus.</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                       <Nav.Item>

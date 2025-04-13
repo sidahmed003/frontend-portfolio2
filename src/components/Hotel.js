@@ -17,7 +17,7 @@ const Hotel = () => {
     <div className="hotel-page">
       {/* Barre de navigation */}
       <nav className="navbar">
-        <div className="logo">Hotel Reservation (MERN Stack)</div>
+        <div className="logo">Booking App Clone</div>
       </nav>
 
       {/* Section principale */}
@@ -30,51 +30,51 @@ const Hotel = () => {
 
         <article className="post">
           <img src={MainPage1} alt="Image d'article" />
-          <h2>La révolution numérique</h2>
-          <p>À l'ère du numérique, les innovations transforment notre quotidien. Découvrez comment la technologie façonne l'avenir.</p>
+          <h2>Page Principale 1</h2>
+          <p>Options de Recherche : Ville, Periode de séjour, Nombre de personnes.</p>
         </article>
 
         <article className="post">
           <img src={MainPage2} alt="Image d'article" />
-          <h2>Voyager pour s'enrichir</h2>
-          <p>Explorer le monde élargit nos horizons. Chaque voyage est une aventure qui nous transforme profondément.</p>
+          <h2>Page Principal 2</h2>
+          <p>Hotel Disponibles selon la ville.</p>
         </article>
 
         <article className="post">
           <img src={FilterSearch} alt="Image d'article" />
-          <h2>Les merveilles de la nature</h2>
-          <p>La nature est une source infinie d'inspiration et de beauté. Chaque paysage raconte une histoire unique, où le temps semble suspendu.</p>
+          <h2>Selection de l'hotel</h2>
+          <p>Selection de l'hotel qui convient au client selon le prix et autres parametres.</p>
         </article>
 
         <article className="post">
           <img src={SpecialHotel} alt="Image d'article" />
-          <h2>Les merveilles de la nature</h2>
-          <p>La nature est une source infinie d'inspiration et de beauté. Chaque paysage raconte une histoire unique, où le temps semble suspendu.</p>
+          <h2>Données de l'hotel selectionné</h2>
+          <p>Images attractives de suites et de chambres a reserver</p>
         </article>
         <article className="post">
           <img src={Booking} alt="Image d'article" />
-          <h2>Les merveilles de la nature</h2>
-          <p>La nature est une source infinie d'inspiration et de beauté. Chaque paysage raconte une histoire unique, où le temps semble suspendu.</p>
+          <h2>Onglet de Reservation selon disponibilité</h2>
+          <p>Les cases des chambres non disponibles ne sont pas activées</p>
         </article>
         <article className="post">
           <img src={adminpage} alt="Image d'article" />
-          <h2>Les merveilles de la nature</h2>
-          <p>La nature est une source infinie d'inspiration et de beauté. Chaque paysage raconte une histoire unique, où le temps semble suspendu.</p>
+          <h2>Espace Adimistrateurs</h2>
+          <p>Espace dans lequel les administrateurs du site web assurent la gestion des utilisateurs, des hotels ainsi que des chambres.</p>
         </article>
         <article className="post">
           <img src={usersPage} alt="Image d'article" />
-          <h2>Les merveilles de la nature</h2>
-          <p>La nature est une source infinie d'inspiration et de beauté. Chaque paysage raconte une histoire unique, où le temps semble suspendu.</p>
+          <h2>Gestion des utilisateurs</h2>
+          <p>Gestion des utilisateurs : Ajouter, modifier les données ou supprimer un utilisateur.</p>
         </article>
         <article className="post">
           <img src={hotelPage} alt="Image d'article" />
-          <h2>Les merveilles de la nature</h2>
-          <p>La nature est une source infinie d'inspiration et de beauté. Chaque paysage raconte une histoire unique, où le temps semble suspendu.</p>
+          <h2>Gestion des hotels</h2>
+          <p>Gestion des hotels : Ajouter, modifier les données ou supprimer un hotel.</p>
         </article>
         <article className="post">
           <img src={newModify} alt="Image d'article" />
-          <h2>Les merveilles de la nature</h2>
-          <p>La nature est une source infinie d'inspiration et de beauté. Chaque paysage raconte une histoire unique, où le temps semble suspendu.</p>
+          <h2>Modification de données & Insertion</h2>
+          <p>Interface similaire pour la modification ou bien l'insertion d'un nouvel utilisateur.</p>
         </article>
       </main>
 
